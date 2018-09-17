@@ -1,17 +1,58 @@
-h2{
+body {
+    background-color: #6348C8;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
     border-bottom: 1px solid black;
     padding-bottom: 10px;
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+form {
+    width: 400px;
+    margin: auto;
+    background-color: white;
+    color: gray;
+    overflow: hidden;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #62B3FF;
+    font-size: 20px;
+    float: right;
+    border-radius: 5px;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+}
+input[type="text"], textarea {
+    padding: 5px;
+    font-size: 15px;
+}
+textarea {
+    width: 300px;
 }
 
 .posts {
-    border: 1px solid blue;
-    width: 400px;
+    border: 1px solid black;
+    width: 600px;
     padding: 15px;
     margin-bottom: 30px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 5px 1px black;
+    background-color: #c497fc;
+}
+.name, .post {
+    color: black;
+    font-size: 23px;
 }
 
 .comments {
-    border-bottom: 1px solid blue;
+    border-bottom: 1px solid black;
     margin-bottom: 15px;
     text-align: right;
     margin-right: 30px;
